@@ -1,0 +1,43 @@
+int numeroif = 3;
+if (numeroif>0) {
+    System.out.println ("Es positivo");
+  } else if (numeroif < 0) {
+    System.out.println ("es negativo");
+  } else {
+    System.out.println ("es 0");
+}
+
+int numeroWhile = 1;
+while (numeroWhile < 3) {
+  numeroWhile++:
+  System.out.println (numeroWhile);
+}
+
+int numeroWhile = 1;
+while (numeroWhile < 3) {
+  numeroWhile++:
+  System.out.println (numeroWhile);
+}
+
+int numeroFor = 0;
+for (i=0; numeroFlor =<3; i++){
+  System.out.println (i);
+}
+
+var estacion = "verano";
+switch (estacion) {
+  case "verano":
+    System.put.print ("es verano");
+    break;
+  case "invierno":
+    System.put.print ("es invierno");
+    break;
+  case "otoño":
+    System.put.print ("es otoño");
+    break;
+  case "primavera":
+    System.put.print ("es primavera");
+    break;
+  default:
+    System.put.print ("el valor de una variable no es de una estacion");
+  
