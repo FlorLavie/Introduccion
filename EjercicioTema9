@@ -1,0 +1,36 @@
+public class EjercicioTema9 {
+
+    public static void main(String[] args) {
+        Cliente nuevoCliente = new Cliente ("Juan", 34, 333,444);
+        
+    }
+}
+
+
+ class Persona {
+     //atributos
+    public int edad;
+    public String nombre;
+    public int telefono;
+}
+
+class Cliente extends Persona {
+    //atributos
+    public int credito;
+    
+    //constructor
+    public Cliente (String nombre, int edad, int telefono, int credito){
+        this.edad=edad;
+        this.nombre=nombre;
+        this.telefono=telefono;
+        this.credito=credito;
+    }
+    
+    
+}
+
+class Trabajador extends Persona {
+    //atributos
+    public double salario;
+}
+
